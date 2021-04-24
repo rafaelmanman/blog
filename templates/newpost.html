@@ -1,0 +1,16 @@
+<html>
+  <head>
+    <title>Make New Post</title>
+    <link rel='stylesheet' href='{{ url_for("static", filename="style.css") }}'>
+  </head>
+  <body>
+    <a href="/">Home</a>
+
+    <form method='POST' action="/newpost">
+      <input type='text' name='title' id='new-post-title'></input>
+      <br />
+      <textarea name='body' id='new-post-body'></textarea>
+      <br />
+      <input type='submit' id='new-post-submit'></input>
+  </body>
+</html>

@@ -1,0 +1,44 @@
+.post-link{
+  background-color: deepskyblue;
+  border-radius: 25px;
+  margin-top:10px;
+  padding: 1rem;
+  width: 300px;
+  height: 100px;
+  border: 2px solid orange;
+  box-shadow: 3px 3px darkorange;
+  text-align: center;
+}
+
+.post-link:active {
+  transform: translate(3px, 3px);
+  box-shadow: 0px 0px darkorange;
+}
+
+#new-post-title{
+  width: 40rem;
+  font-size: 2.5rem;
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 0.5rem;
+}
+
+#new-post-body{
+  margin-top: 10px;
+  width: 40rem;
+  height: 30rem;
+  border: 2px solid black;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+#new-post-submit {
+  width: 10rem;
+  height: 3rem;
+  font-size: 2rem;
+  border-radius: 10px;
+}
+
+textarea:focus, input:focus {
+  outline: none;
+}
